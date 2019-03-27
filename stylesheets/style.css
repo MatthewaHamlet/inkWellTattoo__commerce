@@ -1,0 +1,776 @@
+/* line 5, ../sass/partials/_nav.scss */
+nav {
+  background: #FF5030;
+  height: 219px;
+  align-items: flex-start !important;
+  border-bottom-left-radius: 107px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  font-size: 32px;
+}
+/* line 16, ../sass/partials/_nav.scss */
+nav img[alt="Company Logo"] {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  margin-right: 24px;
+  border: 0.5px solid;
+}
+/* line 25, ../sass/partials/_nav.scss */
+nav .navbar-brand {
+  font-weight: 700;
+  margin-top: 12px;
+}
+/* line 30, ../sass/partials/_nav.scss */
+nav .nav-link {
+  color: #ffffff;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  font-weight: 700;
+  filter: blur(1.5);
+  text-transform: uppercase;
+}
+/* line 39, ../sass/partials/_nav.scss */
+nav .nav-link:hover {
+  border-bottom: 3px solid #616161;
+  border-top: 3px solid #616161;
+  border-radius: 12px;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.26);
+}
+/* line 51, ../sass/partials/_nav.scss */
+nav .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 6 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='square' stroke-miterlimit='12' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* line 55, ../sass/partials/_nav.scss */
+nav .custom-toggler.navbar-toggler {
+  border-color: #FFFFFF;
+}
+/* line 59, ../sass/partials/_nav.scss */
+nav .navbar-toggler {
+  border: none;
+  font-size: 24px;
+  outline: none;
+}
+/* line 66, ../sass/partials/_nav.scss */
+nav .nav-item {
+  position: relative;
+  z-index: 12;
+}
+/* line 72, ../sass/partials/_nav.scss */
+nav a {
+  color: #616161 !important;
+}
+
+/* line 81, ../sass/partials/_nav.scss */
+#scroll-arrow {
+  position: fixed;
+  top: 50%;
+  left: -32px;
+  transform: rotate(90deg);
+  height: 20px;
+  margin: 0;
+  z-index: 999;
+}
+/* line 90, ../sass/partials/_nav.scss */
+#scroll-arrow p {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+/* line 98, ../sass/partials/_nav.scss */
+#scroll-arrow img {
+  transform: rotate(-90deg);
+  margin: 0 0 0 24px;
+}
+
+/* line 4, ../sass/partials/_header.scss */
+#landing {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 9, ../sass/partials/_header.scss */
+img[alt="Product Image"] {
+  width: 227px;
+  position: relative;
+  top: -200px;
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+/* line 17, ../sass/partials/_header.scss */
+.social--img-list {
+  width: 68px;
+  padding: 0;
+  height: auto;
+  margin-top: 43px;
+  position: relative;
+  right: 12px;
+  align-items: center;
+}
+/* line 26, ../sass/partials/_header.scss */
+.social--img-list ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+/* line 31, ../sass/partials/_header.scss */
+.social--img-list ul li {
+  margin-bottom: 12px;
+}
+
+/* line 40, ../sass/partials/_header.scss */
+.nav--buy {
+  margin-left: 28px;
+}
+
+/* line 44, ../sass/partials/_header.scss */
+a {
+  color: #616161 !important;
+  font-size: 12px;
+}
+
+/* line 49, ../sass/partials/_header.scss */
+.button--g {
+  width: 67px;
+  height: 67px;
+  background: #FFFFFF;
+  border: 1px solid #616161;
+  border-radius: 50%;
+  outline: none;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+/* line 59, ../sass/partials/_header.scss */
+.button--g:active {
+  outline: none;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+/* line 65, ../sass/partials/_header.scss */
+.button--g:focus {
+  outline: none;
+}
+/* line 69, ../sass/partials/_header.scss */
+.button--g:hover {
+  background: rgba(255, 79, 48, 0.191);
+}
+
+/* line 77, ../sass/partials/_header.scss */
+.landing--copy {
+  position: relative;
+  top: -300px;
+}
+/* line 81, ../sass/partials/_header.scss */
+.landing--copy h2 {
+  font-size: 44px;
+}
+/* line 85, ../sass/partials/_header.scss */
+.landing--copy p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #EEEEEE;
+}
+/* line 91, ../sass/partials/_header.scss */
+.landing--copy li {
+  margin: auto 3px;
+}
+
+/* line 96, ../sass/partials/_header.scss */
+#about {
+  position: relative;
+  top: -250px;
+}
+
+/* line 7, ../sass/partials/_main.scss */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* line 17, ../sass/partials/_main.scss */
+#background--img {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  z-index: -1;
+}
+/* line 24, ../sass/partials/_main.scss */
+#background--img img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 31, ../sass/partials/_main.scss */
+#title--img {
+  position: absolute;
+  width: 100%;
+  height: 112px;
+  top: 450px;
+  left: -12px;
+  overflow: hidden;
+}
+/* line 39, ../sass/partials/_main.scss */
+#title--img img {
+  z-index: 2;
+  width: 100%;
+}
+
+/* line 6, ../sass/partials/_footer.scss */
+footer {
+  background: #FF7860;
+  position: relative;
+  top: -60px;
+}
+/* line 11, ../sass/partials/_footer.scss */
+footer .button--wrapper {
+  display: inline-block;
+}
+/* line 15, ../sass/partials/_footer.scss */
+footer input {
+  width: 99%;
+  float: left;
+  outline: none;
+  border: 1px solid #990000;
+  border-bottom-left-radius: 107px;
+  border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+/* line 27, ../sass/partials/_footer.scss */
+footer button {
+  float: right;
+  margin-top: -14%;
+  background: #FF5030;
+  outline: none;
+  border: 1px solid #990000;
+}
+
+/* line 4, ../sass/partials/_animations.scss */
+.blur {
+  opacity: 0.1;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 5, ../sass/partials/_sections.scss */
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12, ../sass/partials/_sections.scss */
+#about {
+  width: 100%;
+  top: -100px;
+  position: relative;
+}
+/* line 17, ../sass/partials/_sections.scss */
+#about img[alt="Product image about"] {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+/* line 23, ../sass/partials/_sections.scss */
+#about h1 {
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+}
+/* line 28, ../sass/partials/_sections.scss */
+#about h1 p {
+  font-size: 12px;
+  color: #616161;
+}
+/* line 34, ../sass/partials/_sections.scss */
+#about img[alt="Hands Holding Product"], #about img[alt="Product diagram"], #about img[alt="Product machine"] {
+  width: 100%;
+  display: block;
+  margin: 24px auto 8px auto;
+}
+
+/* line 42, ../sass/partials/_sections.scss */
+#commerce {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+/* line 47, ../sass/partials/_sections.scss */
+#commerce .container--product {
+  margin: 0 auto;
+}
+/* line 50, ../sass/partials/_sections.scss */
+#commerce .container--product img[alt="product purchase"] {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+/* line 56, ../sass/partials/_sections.scss */
+#commerce .container--product a {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  bottom: 18%;
+  left: 18%;
+  border: 1px solid #616161;
+  border-bottom-left-radius: 107px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.16);
+}
+/* line 71, ../sass/partials/_sections.scss */
+#commerce .container--product a p {
+  display: inline;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+}
+/* line 81, ../sass/partials/_sections.scss */
+#commerce .container--product .v--line {
+  border-left: 2px solid #616161;
+  padding: 2px;
+}
+
+/* line 91, ../sass/partials/_sections.scss */
+#blog {
+  width: 100%;
+  position: relative;
+  top: -200px;
+}
+/* line 96, ../sass/partials/_sections.scss */
+#blog .container--copy-blog {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+/* line 101, ../sass/partials/_sections.scss */
+#blog .container--copy-blog img[alt="Background image"] {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: -1;
+  bottom: 0;
+}
+/* line 109, ../sass/partials/_sections.scss */
+#blog .container--copy-blog h3 {
+  margin-top: -240px;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 31px;
+}
+/* line 116, ../sass/partials/_sections.scss */
+#blog .container--copy-blog p {
+  text-align: left;
+  padding: 6px;
+  margin-bottom: -6px;
+  margin-left: 24px;
+  font-size: 12px;
+  font-weight: 700;
+}
+/* line 126, ../sass/partials/_sections.scss */
+#blog img[alt="Blog image"] {
+  width: 260px;
+  display: block;
+  margin: 12px auto;
+}
+
+/* line 137, ../sass/partials/_sections.scss */
+.container__iframe {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 143, ../sass/partials/_sections.scss */
+.resp--iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 5, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 30%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 15, ../sass/partials/_mediaqueries.scss */
+  nav .nav-link {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /* line 21, ../sass/partials/_mediaqueries.scss */
+  nav a {
+    color: #FFFFFF !important;
+  }
+
+  /* line 25, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 40%;
+  }
+
+  /* line 29, ../sass/partials/_mediaqueries.scss */
+  .landing--copy {
+    position: relative;
+    top: 32px;
+  }
+
+  /* line 33, ../sass/partials/_mediaqueries.scss */
+  img[alt="Product Image"] {
+    width: 227px;
+    top: -150px;
+    margin-left: 0px;
+  }
+
+  /* line 40, ../sass/partials/_mediaqueries.scss */
+  #blog {
+    top: -150px;
+  }
+
+  /* line 44, ../sass/partials/_mediaqueries.scss */
+  #blog img[alt="Blog image"] {
+    width: 300px;
+    display: block;
+    margin: 55px 0px 0px -55px;
+  }
+
+  /* line 50, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog p {
+    padding: 10px;
+  }
+
+  /* line 54, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -19%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 61, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog {
+    width: 120%;
+    margin-left: 18px;
+  }
+  /* line 64, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog h3 {
+    margin-left: 113px;
+  }
+  /* line 67, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog p {
+    margin-left: 113px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  /* line 75, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog {
+    width: 120%;
+    margin-left: 18px;
+  }
+  /* line 78, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog h3 {
+    margin-left: 160px;
+  }
+  /* line 81, ../sass/partials/_mediaqueries.scss */
+  #blog .container--copy-blog p {
+    margin-left: 160px;
+    width: 50%;
+  }
+
+  /* line 87, ../sass/partials/_mediaqueries.scss */
+  #blog img[alt="Blog image"] {
+    margin: 55px 0px 0px -65px;
+  }
+}
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 101, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 200px;
+  }
+
+  /* line 102, ../sass/partials/_mediaqueries.scss */
+  #commerce {
+    top: 160px;
+  }
+
+  /* line 103, ../sass/partials/_mediaqueries.scss */
+  #blog {
+    top: 80px;
+  }
+
+  /* line 104, ../sass/partials/_mediaqueries.scss */
+  footer {
+    margin-top: 200px;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 113, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 200px;
+  }
+
+  /* line 114, ../sass/partials/_mediaqueries.scss */
+  #commerce {
+    top: 160px;
+  }
+
+  /* line 115, ../sass/partials/_mediaqueries.scss */
+  #blog {
+    top: 80px;
+  }
+
+  /* line 116, ../sass/partials/_mediaqueries.scss */
+  footer {
+    margin-top: 200px;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 125, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 200px;
+  }
+
+  /* line 126, ../sass/partials/_mediaqueries.scss */
+  #commerce {
+    top: 160px;
+  }
+
+  /* line 127, ../sass/partials/_mediaqueries.scss */
+  #blog {
+    top: 80px;
+  }
+
+  /* line 128, ../sass/partials/_mediaqueries.scss */
+  footer {
+    margin-top: 200px;
+  }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 139, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 148, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 157, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* line 167, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* line 176, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  /* line 185, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* line 195, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 40%;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* line 204, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 40%;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  /* line 213, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 40%;
+  }
+}
+/* ----------- Galaxy S3 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  /* line 223, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 232, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 241, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  /* line 251, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* line 260, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  /* line 269, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* ----------- Galaxy S6 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  /* line 279, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+  /* line 288, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  /* line 297, ../sass/partials/_mediaqueries.scss */
+  #landing {
+    height: 50%;
+  }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 308, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 321, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 334, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 346, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 359, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 372, ../sass/partials/_mediaqueries.scss */
+  footer button {
+    margin-top: -13%;
+  }
+}
+/* ----------- LG Optimus L70 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 384px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  /* line 384, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 100px;
+  }
+}
+/* Portrait */
+@media screen and (device-width: 384px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 393, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 100px;
+  }
+}
+/* Landscape */
+@media screen and (device-width: 384px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 402, ../sass/partials/_mediaqueries.scss */
+  #about {
+    top: 100px;
+  }
+}

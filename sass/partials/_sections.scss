@@ -1,0 +1,150 @@
+@import './variables';
+// Sections Styles
+
+// Main Section 
+#main {
+    width: 100%;
+    height: 100%;
+
+}
+
+//  About Section 
+#about {
+    width: 100%;
+    top: -100px;
+   position: relative;
+  
+    img[alt="Product image about"] {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 31px;
+        font-weight: bold;
+
+        p {
+            font-size: 12px;
+            color: $tertiary-color;
+        }
+    }
+
+    img[alt="Hands Holding Product"], img[alt="Product diagram"], img[alt="Product machine"] {
+        width: 100%;
+        display: block;
+        margin: 24px auto 8px auto;
+    }
+}
+
+// Section Commerce 
+#commerce {
+    width: 100%;
+    position: relative;
+    top: -100px;
+// Container Images/Copy 
+    .container--product {
+        margin: 0 auto;
+
+        img[alt="product purchase"] {
+            width: 100%;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        a {
+            width: 150px;
+            height: 50px;
+            position: relative;
+            bottom: 18%;
+            left: 18%;
+            border: 1px solid $tertiary-color;
+            border-bottom-left-radius: 107px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            display: block;
+            background: $primary-color;
+            box-shadow: 0 3px 4px $bx-sh;
+
+            p {
+                display: inline;
+                font-size: 14px;
+                margin: auto;
+                text-align: center;
+                line-height: 32px;
+                font-weight: bold;
+            }
+        }
+// Vertical Line Inside Button 
+        .v--line {
+            border-left: 2px solid $tertiary-color;
+            padding: 2px;
+        }
+    }
+}
+
+
+// Section Blog 
+
+#blog {
+    width: 100%;
+    position: relative;
+    top: -200px;
+// Container Images/Copy
+    .container--copy-blog {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+
+        img[alt="Background image"] {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            z-index: -1;
+            bottom: 0;
+        }
+
+        h3 {
+            margin-top: -240px;
+            text-align: left;
+            margin-left: 24px;
+            font-size: 31px;
+        }
+
+        p {
+            text-align: left;
+            padding: 6px;
+            margin-bottom: -6px;
+            margin-left: 24px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+
+    img[alt="Blog image"] {
+        width: 260px;
+        display: block;
+        margin: 12px auto;
+    }
+}
+
+
+
+// Modals 
+// Iframe  Container
+.container__iframe {
+position: relative;
+overflow: hidden;
+padding-top: 56.25%;
+}
+// Position Iframe 
+.resp--iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386.132" height="316.284" viewBox="0 0 386.132 316.284">
+  <defs>
+    <filter id="Path_358" x="0" y="0" width="386.132" height="316.284" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Symbol_18_1" data-name="Symbol 18 – 1" transform="translate(-4368.008 -4145.766)">
+    <g transform="matrix(1, 0, 0, 1, 4368.01, 4145.77)" filter="url(#Path_358)">
+      <g id="Path_358-2" data-name="Path 358" transform="translate(9 6)" fill="#fff">
+        <path d="M 367.6320190429688 297.7842712402344 L 0.5000095367431641 297.7842712402344 L 0.5000095367431641 0.4999992549419403 L 367.6320190429688 0.4999992549419403 L 367.6320190429688 297.7842712402344 Z" stroke="none"/>
+        <path d="M 1 1 L 1 297.2842712402344 L 367.1320190429688 297.2842712402344 L 367.1320190429688 1 L 1 1 M 0 0 L 368.1320190429688 0 L 368.1320190429688 298.2842712402344 L 0 298.2842712402344 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Symbol_17_1" data-name="Symbol 17 – 1">
+      <path id="Path_348" data-name="Path 348" d="M0,174.469s43.3-22.723,93.571-22.2,84.455,14.887,158.52,40.744,116.293-52.759,116.293-52.759V0H0Z" transform="translate(4745.392 4450.068) rotate(180)" fill="#eee" opacity="0.52"/>
+      <path id="Path_349" data-name="Path 349" d="M0,125.756s43.3-16.378,93.571-16,84.455,10.731,158.52,29.368,116.293-38.028,116.293-38.028V0H0Z" transform="translate(4745.392 4450.068) rotate(180)" fill="#616161" opacity="0.52"/>
+    </g>
+  </g>
+</svg>

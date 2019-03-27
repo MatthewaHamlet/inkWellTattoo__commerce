@@ -1,0 +1,35 @@
+@import './variables';
+// Footer Styles 
+
+
+
+footer {
+    background: #FF7860;
+    position: relative;
+    top: -60px;
+
+    .button--wrapper {
+        display: inline-block;
+    }
+
+    input {
+        width: 99%;
+        float: left;
+        outline: none;
+        border: 1px solid $quaternary-color;
+        border-bottom-left-radius: 107px;
+        border-top-right-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+
+    }
+
+    button {
+        float: right;
+        margin-top: -14%;
+        background: $quinary-color;
+        outline: none;
+        border: 1px solid $quaternary-color;
+    }
+
+}

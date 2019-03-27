@@ -1,0 +1,102 @@
+@import './variables';
+//  Navigation Styles 
+
+// Override BootStrap Defaults On Nav
+nav {
+    background:  $quinary-color;
+    height: 219px;
+    align-items: flex-start !important;
+    border-bottom-left-radius: 107px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    font-size: 32px;
+
+
+
+    img[alt="Company Logo"] {
+        border-radius: 50%;
+        width: 66px;
+        height: 66px;
+        margin-right: 24px;
+        border: 0.5px solid;
+
+    }
+
+    .navbar-brand {
+        font-weight: 700;
+        margin-top: 12px;
+    }
+
+    .nav-link {
+        color: #ffffff;
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 32px;
+        font-weight: 700;
+        filter: blur(1.5);
+        text-transform: uppercase;
+
+        &:hover {
+            border-bottom: 3px solid $tertiary-color;
+            border-top: 3px solid $tertiary-color;
+            border-radius: 12px;
+            transform: scale(1.05);
+            transition: all 0.2s ease-in-out;
+            text-shadow: 0 4px 3px rgba(0, 0, 0, 0.26);
+
+        }
+    }
+// Custom NavBar Icon Toggler 
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 6 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='square' stroke-miterlimit='12' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      
+      .custom-toggler.navbar-toggler {
+        border-color: $primary-color;
+      } 
+
+    .navbar-toggler {
+        border: none;
+        font-size: 24px;
+        outline: none;
+
+    }
+
+    .nav-item {
+        position: relative;
+        z-index: 12;
+
+    }
+
+    a {
+        color: $tertiary-color !important;
+
+    }
+}
+
+
+
+// Side Scroll Arrow 
+#scroll-arrow {
+    position: fixed;
+    top: 50%;
+    left: -32px;
+    transform: rotate(90deg);
+    height: 20px;
+    margin: 0;
+    z-index: 999;
+
+    p {
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+
+    img {
+        transform: rotate(-90deg);
+        margin: 0 0 0 24px;
+    }
+}
